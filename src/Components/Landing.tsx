@@ -20,8 +20,8 @@ export const Landing = () => {
 
       {/* Footer Section */}
       <div className="flex text-lg justify-between mx-14 text-white">
-        <p className="flex"> <MapPin/> <span>Bangalore</span></p>
-        <p>@all rights reserved</p>
+        <p className="flex gap-2"> <MapPin/> <span>Bangalore</span></p>
+        <p><span>@</span>naman.dev</p>
       </div>
     </div>
   );
