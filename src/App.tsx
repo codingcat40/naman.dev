@@ -1,18 +1,16 @@
 import AboutMe from './Components/AboutMe'
-import DropDown from './Components/DropDown'
 import { Landing } from './Components/Landing'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Projects from './Components/Projects'
-
+import Navbar from './Components/Navbar'
 
 
 function App() {
-
+  
   return (
    <Router>
-    <div className="fixed top-0 right-0 h-16 px-6 flex items-center justify-between bg-black/40 backdrop-blur-md z-50">
-      <DropDown />
-    </div>
+    
+      <Navbar />
 
     <Routes>
       <Route path='/' element={<Landing />}/>

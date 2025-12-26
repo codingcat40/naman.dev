@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import { projects } from "./Project"
 
 function Projects() {
@@ -14,11 +15,13 @@ function Projects() {
             </div>
             <span className="text-right justify-right">
               {
-                <a className=" text-white px-4 py-1 rounded-lg cursor-pointer text-lg hover:text-red-500" href={item.url} target="__blank">[ Visit ]</a>
+                <a className=" text-white px-4 py-1 rounded-lg cursor-pointer text-lg hover:text-red-500" href={item.url} target="__blank">[Visit]</a>
               }
             </span>    
         </div>
       })}
+
+      <Footer />
     </div>
   )
 }

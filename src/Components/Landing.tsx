@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { MapPin } from "lucide-react";
+import Footer from "./Footer";
 
 export const Landing = () => {
   return (
@@ -19,10 +19,8 @@ export const Landing = () => {
       </div>
 
       {/* Footer Section */}
-      <div className="flex text-lg justify-between mx-14 text-white">
-        <p className="flex gap-2"> <MapPin/> <span>Bangalore</span></p>
-        <p><span>@</span>naman.dev</p>
-      </div>
+      <Footer />
+      
     </div>
   );
 };
