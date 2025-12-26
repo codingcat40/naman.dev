@@ -3,14 +3,14 @@ export const projects = [
     {
         id: 1,
         title: "Forever - Full Stack Ecommerce Clothing store",
-        description: "Built a responsive full-stack clothing store using React, Node.js, Express, and MongoDB with complete user and admin flows. Implemented features like product sorting/filtering, keyword search, size selection, cart, checkout, and order management. Integrated secure user/admin authentication, Cloudinary for image uploads, and Stripe for online payments. Developed an admin dashboard with product/order CRUD, real-time order status updates, and toast notifications.",
+        description: "Developed a full-stack clothing store with React, Node.js, Express, and MongoDB featuring complete user/admin flows, search, filtering, cart, checkout, and order management. Added secure auth, Cloudinary uploads, Stripe payments, and an admin dashboard with product/order CRUD and live status updates.",
         stack: ["ReactJS", "Tailwind CSS", "Node", "Express", "JWT", "Stripe API"],
         url: "https://e-commerce-clothingstore-eh52.vercel.app/"
     },
     {
         id: 2,
         title: "SwoleNORMOUS fitness app",
-        description: "A fitness application for fitness enthusiasts seeking proper workout plans. It offers personalized routines targeting individual muscles, bro splits, bodybuilder splits, and upper-lower body exercises. The app suggests appropriate plans for strength, cardio, and muscle gain goals, with detailed instructions, total reps, and rest times. App showcases proper training instructions and provides smooth and mobile responsive interface to the user.",
+        description: "Developed a fitness app that generates personalized routines—muscle-focused, bro splits, upper/lower splits, and strength/cardio/muscle-gain programs. Includes detailed exercise guidance with reps, rest times, and a clean, mobile-responsive UI.",
         stack: ["React", "Tailwind CSS"],
         url: "https://swolenormous-app.netlify.app/",
     },

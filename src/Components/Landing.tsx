@@ -6,9 +6,9 @@ export const Landing = () => {
 <div className="min-h-[calc(100vh-64px)] flex flex-col justify-between pt-24 pb-12 text-center">
       {/* Top Section */}
       <div className="flex flex-col gap-16 pt-28">
-        <p className="text-blue-700 font-bold text-6xl">Naman Matoliya</p>
+        <p className="text-[#5862F2] font-bold text-6xl">Naman Matoliya</p>
         <p className="text-white text-2xl">
-          I am <span className="text-red-500">24 Years</span> Old Web Developer
+          I am <span className="text-red-500">24 years</span> old web developer
         </p>
       </div>
 
