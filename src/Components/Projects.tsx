@@ -3,7 +3,7 @@ import { projects } from "./Project"
 
 function Projects() {
   return (
-    <div className="flex flex-col justify-between mt-24 mb-12 text-center gap-6 font-mono">
+    <div className="flex flex-col justify-between  mb-12 text-center gap-6 font-mono">
       {projects.map((item) => {
         return <div key={item.id} className="flex flex-col bg-[#2A2929] border rounded-xl space-y-8 w-full max-w-lg sm:max-w-xl md:max-w-3xl lg:max-w-5xl mx-auto text-center m-auto p-2">
             <p className="text-white text-xl text-left font-bold">{item.title}</p>
