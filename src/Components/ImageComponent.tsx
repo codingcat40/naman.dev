@@ -1,6 +1,6 @@
 
 const ImageComponent = () => {
-  const imageURL = 'public/pp.jpg'
+  const imageURL = '/pp.jpg'
   return (
     <>
     <img
