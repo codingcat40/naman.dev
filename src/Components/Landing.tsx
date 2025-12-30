@@ -3,6 +3,7 @@ import Footer from "./Footer";
 
 export const Landing = () => {
   return (
+    <>
 <div className="min-h-[calc(100vh-64px)] flex flex-col justify-between pt-24 pb-12 text-center">
       {/* Top Section */}
       <div className="flex flex-col gap-16 pt-28">
@@ -18,9 +19,11 @@ export const Landing = () => {
         <NavLink className="hover:text-red-500 animate-pulse" to="/about">[About]</NavLink>
       </div>
 
-      {/* Footer Section */}
-      <Footer />
       
     </div>
+          {/* Footer Section */}
+
+    <Footer />
+    </>
   );
 };

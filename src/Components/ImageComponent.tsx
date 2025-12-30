@@ -10,7 +10,7 @@ const ImageComponent = () => {
     
     />
    <div className="absolute top-2.5 left-2.5 text-white font-mono font-bold text-xl">
-      Me taking random selfie 😊
+      A random selfie 😊
     </div> 
 </>
   )

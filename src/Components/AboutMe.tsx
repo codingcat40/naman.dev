@@ -40,6 +40,7 @@ const AboutMe = () => {
   };
 
   return (
+    <>
     <div className="mb-12 flex flex-col text-center gap-8 justify-center w-full lg:max-w-4xl mx-auto font-mono">
       <div className="flex flex-col gap-4 text-2xl border">
         <span className="text-red-600 flex-1">
@@ -174,12 +175,12 @@ const AboutMe = () => {
       </p>
     </div>
     
-    <div className="w-full text-center">
-      <Footer />
-    </div>
+    
 
     </div>
-    
+
+      <Footer />
+    </>
   );
 };
 
