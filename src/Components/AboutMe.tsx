@@ -40,7 +40,6 @@ const AboutMe = () => {
   };
 
   return (
-  <>
     <div className="mb-12 flex flex-col text-center gap-8 justify-center w-full lg:max-w-4xl mx-auto font-mono">
       <div className="flex flex-col gap-4 text-2xl border">
         <span className="text-red-600 flex-1">
@@ -174,11 +173,13 @@ const AboutMe = () => {
         If you have any questions you can contact with me in <a href="https://t.me/namanm121" target="__blank"> <span className="hover:text-red-500 duration-100">[Telegram]</span> </a>. And, I am also active sometimes on my <a href="https://www.instagram.com/_nowhere.bound/" target="__blank"> <span className="hover:text-red-500 duration-100">[Instagram]</span> </a>, so feel free to join and ask me about some thing in chat.
       </p>
     </div>
-
+    
+    <div className="w-full text-center">
+      <Footer />
+    </div>
 
     </div>
-    <Footer />
-    </>
+    
   );
 };
 
