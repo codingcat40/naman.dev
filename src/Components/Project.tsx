@@ -26,10 +26,11 @@ export const projects = [
 
   {
     id: 3,
-    title: 'GameNews',
-    descrtiption: 'Worked on the GameNews app which renders the latest Games trending in the world. Added the visually appealing styles using three.js library. Implemented Loading, Pagination, Debouncing for Search function and individual game route using the REST API'
-    ,stack: ['React', 'three.js', 'Node', 'Express', 'Discord API'],
-    url: 'https://github.com/codingcat40/GameNews'
+    title: "GameNews",
+    descrtiption:
+      "Worked on the GameNews app which renders the latest Games trending in the world. Added the visually appealing styles using three.js library. Implemented Loading, Pagination, Debouncing for Search function and individual game route using the REST API",
+    stack: ["React", "three.js", "Node", "Express", "Discord API"],
+    url: "https://github.com/codingcat40/GameNews",
   },
 
   {
@@ -51,13 +52,11 @@ Users can register, log in, create posts, edit posts, and delete posts. Posts ar
     url: "https://personal-blog2025.netlify.app/",
   },
 
-
   {
     id: 6,
-    title: 'SnapRecipe AI',
-    description: `This is an AI powered Recipe scanner which generates the step by step cooking procedure, list of ingredients once a food picture is uploaded. The images can be in the format of jpg, png and webp`
-,
-stack: ['NextJS', 'TailwindCSS', 'Typescript'],
-url: 'https://snaprecipe-snowy.vercel.app/'
-  }
+    title: "SnapRecipe AI",
+    description: `This is an AI powered Recipe scanner which generates the step by step cooking procedure, list of ingredients once a food picture is uploaded. The images can be in the format of jpg, png and webp`,
+    stack: ["NextJS", "TailwindCSS", "Typescript"],
+    url: "https://snaprecipe-snowy.vercel.app/",
+  },
 ];
