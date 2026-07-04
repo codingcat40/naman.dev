@@ -1,14 +1,6 @@
 export const projects = [
   {
     id: 1,
-    title: "Forever - Full Stack Ecommerce Clothing store",
-    description:
-      "Developed a full-stack clothing store with React, Node.js, Express, and MongoDB featuring complete user/admin flows, search, filtering, cart, checkout, and order management. Added secure auth, Cloudinary uploads, Stripe payments, and an admin dashboard with product/order CRUD and live status updates.",
-    stack: ["ReactJS", "Tailwind CSS", "Node", "Express", "JWT", "Stripe API"],
-    url: "https://e-commerce-clothingstore-eh52.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Memora AI",
     description:
       "Built Memora AI, a memory-augmented LLM platform using PineCone vector database and semantic retrieval to persist user context across conversations. Implemented structured fact extraction, long-term memory storage, and RAG embedding with personalization. Designed a model-agnostic architecture supporting GPT4, Gemini, DeepSeek, and LLaMA via OpenRouter.",
@@ -23,7 +15,31 @@ export const projects = [
     ],
     url: "https://memora-ai-9jvr.vercel.app/",
   },
+  {
+    id: 2,
+    title: "Freelancereply",
+    description:
+      "Freelancers spend way too much time writing client emails that should take 2 minutes. I built FreelanceReply to fix that — it generates 3 professional reply options tailored to your actual situation, tone, and business type. Architected the full stack myself: Next.js App Router, Zustand, TypeScript, and a secure serverless API proxy to OpenRouter's Gemini 2.5 Pro.",
 
+    stack: [
+      "Next JS",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "OpenRouter Gemini Model",
+      "vercel deploy",
+    ],
+    url: "https://freelancereply.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Forever - Full Stack Ecommerce Clothing store",
+    description:
+      "Developed a full-stack clothing store with React, Node.js, Express, and MongoDB featuring complete user/admin flows, search, filtering, cart, checkout, and order management. Added secure auth, Cloudinary uploads, Stripe payments, and an admin dashboard with product/order CRUD and live status updates.",
+    stack: ["ReactJS", "Tailwind CSS", "Node", "Express", "JWT", "Stripe API"],
+    url: "https://e-commerce-clothingstore-eh52.vercel.app/",
+  },
+  
   {
     id: 3,
     title: "GameNews",
